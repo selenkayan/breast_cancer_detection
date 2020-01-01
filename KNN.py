@@ -11,7 +11,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 #B-READING DATA 
-bc = pd.read_csv(r'C:\Users\Asus\Desktop\data.csv')
+bc = pd.read_csv(r'data.csv')
 bc.head(10)
 print(bc.head)
 
