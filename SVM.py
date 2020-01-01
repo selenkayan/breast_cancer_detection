@@ -11,7 +11,7 @@ import numpy as np
 import seaborn as sns
 from sklearn.metrics import classification_report, confusion_matrix
 #Reading Input Data
-data = pd.read_csv(r'C:\Users\Asus\Desktop\data.csv')
+data = pd.read_csv(r'data.csv')
 
 #Shape Information
 print("Shape of data: ",data.shape)
